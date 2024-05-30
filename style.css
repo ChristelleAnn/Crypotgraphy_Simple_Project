@@ -1,0 +1,59 @@
+body {
+    font-family: cursive ;
+    background-color: #e4bfbf;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.logo {
+    width: 300px;
+    height: 160px;
+    margin-bottom: 0px;
+    align-content:first baseline;
+}
+h1 {
+    color: #472e2e;
+    font-size: 36px;
+}
+.container {
+    background-color: #efc7c7;
+    padding: 30px;
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgba(123, 43, 43, 0.34);
+    width: 900px;
+    text-align: center;
+}
+textarea {
+    background-color: #e8b1b1;
+    width: 90%;
+    height: 40px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #9e5454;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #a93a3aa8;
+}
+.cryptogram, .decoded-output {
+    font-size: 18px;
+    margin: 10px 0;
+    white-space: pre-wrap;
+}
+.decode-section {
+    margin-top: 20px;
+}
+#resultMessage {
+    margin-top: 10px;
+    font-weight: bold;
+}

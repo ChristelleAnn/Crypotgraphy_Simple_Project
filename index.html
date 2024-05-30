@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptography Exercise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"><img src="cryptogram logo.png" alt="Cryptogram logo" class="logo">
+        <h1>Cryptogram Cipher Exercise</h1>
+        <textarea id="inputMessage" placeholder="Enter your message here"></textarea>
+        <button onclick="generateCryptogram()">Generate Cryptogram</button>
+        <div id="cryptogramOutput" class="cryptogram"></div>
+        <div id="decodeSection" class="decode-section" style="display:none;">
+            <h2>Decode the Cryptogram</h2>
+            <div id="decodedOutput" class="decoded-output"></div>
+            <textarea id="userGuess" placeholder="Enter your guesses here"></textarea>
+            <button onclick="checkGuess()">Check Guess</button>
+            <p id="resultMessage"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
